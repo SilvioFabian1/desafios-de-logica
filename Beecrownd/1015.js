@@ -2,7 +2,6 @@ const val = `2.5 0.4
 12.0 7.0`;
 
 const lines = val.split("\n");
-console.log(lines);
 const linesTratado = lines.toString().replace(",", " ").split(" ");
 
 console.log(
